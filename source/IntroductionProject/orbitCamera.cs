@@ -35,9 +35,8 @@ public class orbitCamera : MonoBehaviour {
         }
     }
 
-    void LastUpdate()
+    void Update()
     {
-
         x += Input.GetAxis("Mouse X") * xSpeed * distance * 0.02f;
         y -= Input.GetAxis("Mouse Y") * ySpeed * 0.02f;
 
