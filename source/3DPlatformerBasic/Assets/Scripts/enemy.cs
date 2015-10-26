@@ -14,8 +14,9 @@ public class enemy : MonoBehaviour {
 	}
 	
     // On Collision with another collisder
-	void OnCollisionEnter()
+	void OnCollisionEnter(Collision col)
     {
-        ply.calcHp(dmg);
+        if(col.transform.name == "Player")
+            ply.calcHp(dmg);
     }
 }

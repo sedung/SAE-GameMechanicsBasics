@@ -472,6 +472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinValue: 100
   destroyCoinAfterXSeconds: 0
+  rotationSpeed: 100
 --- !u!1 &275143315
 GameObject:
   m_ObjectHideFlags: 0
